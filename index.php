@@ -55,7 +55,7 @@
                 <div class="col-lg-8">
                     <h1 class="text-white font-weight-bold">AKJ Basketball School Semarang</h1>
                     <hr class="divider" />
-                    <p class="text-white-75 mb-5">Push Your Limit for Your Future!</p>
+                    <p class="text-white mb-5 font-weight-bold">Push Your Limit for Your Future!</p>
                     
                 </div>
             </div>
@@ -64,22 +64,6 @@
 
     <section class="container-fluid py-5">
         <div class="container-sm">
-            <div class="row">
-                <div class="col-lg-6">
-                    <!-- Gambar di sini -->
-                    <img src="assets/img/content.jpg" alt="AKJ Semarang" class="img-fluid">
-                </div>
-                <div class="col-lg-6">
-                    <!-- Deskripsi profil AKJ Semarang di sini -->
-                    <h2 class="display-4">Profil AKJ Semarang</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae felis vel libero vestibulum pretium nec a arcu. Mauris non lectus vel metus blandit congue.</p>
-                    <p>Nullam non velit eu risus feugiat consectetur. Curabitur condimentum, sem quis ultrices luctus, mauris ex tempus lorem, in efficitur odio ligula vitae justo.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="container-fluid py-5">
-        <div class="container">
             <div class="row">
                 <div class="col-lg-6">
                     <!-- Gambar di sini -->

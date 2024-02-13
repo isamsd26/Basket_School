@@ -19,7 +19,7 @@
     ?>
     <nav class="<?php echo $navbarClass; ?>" id="navbar">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand ps-5" href="#">
                 <img src="assets/img/Logo_AKJ_Basketball.png" alt="Logo AKJ Semarang" height="30" class="d-inline-block align-top">
                 AKJ Semarang
             </a>           
@@ -53,17 +53,17 @@
             <!-- Isi konten di sini -->
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-8">
-                    <h1 class="text-white font-weight-bold">Your Favorite Place for Free Bootstrap Themes</h1>
+                    <h1 class="text-white font-weight-bold">AKJ Basketball School Semarang</h1>
                     <hr class="divider" />
-                    <p class="text-white-75 mb-5">Start Bootstrap can help you build better websites using the Bootstrap framework! Just download a theme and start customizing, no strings attached!</p>
-                    <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
+                    <p class="text-white-75 mb-5">Push Your Limit for Your Future!</p>
+                    
                 </div>
             </div>
         </div>
     </header>
 
     <section class="container-fluid py-5">
-        <div class="container">
+        <div class="container-sm">
             <div class="row">
                 <div class="col-lg-6">
                     <!-- Gambar di sini -->

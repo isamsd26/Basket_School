@@ -98,7 +98,8 @@ h1 {
 }
 
 .custom-footer-bg {
-  background-color: #432EB5; /* Ganti your_custom_color dengan nilai warna RGB, HEX, atau nama warna CSS yang Anda inginkan */
+  background-color: #432EB5;
+   /* Ganti your_custom_color dengan nilai warna RGB, HEX, atau nama warna CSS yang Anda inginkan */
 }
 
 form {

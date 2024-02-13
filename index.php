@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bootstrap Page</title>  
+    <link rel="icon" type="image/x-icon" href="assets/img/Logo_AKJ_Basketball.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <?php
+    // Cek apakah pengguna sedang men-scroll halaman
+    $navbarClass = 'navbar navbar-expand-lg navbar-dark py-3 fixed-top custom-navbar';
+    if (isset($_GET['scroll']) && $_GET['scroll'] == 'true') {
+        $navbarClass .= ' custom-navbar-solid';
+    }
+    ?>
+    <nav class="<?php echo $navbarClass; ?>" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/Logo_AKJ_Basketball.png" alt="Logo AKJ Semarang" height="30" class="d-inline-block align-top">
+                AKJ Semarang
+            </a>           
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>       
+            <div class="d-flex collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5">
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#">Profil</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#">Berita</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#">Jadwal</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#">Galeri</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#">Informasi Pendaftaran</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <header class="jb">
+        <div class="container py-5 transparent-container text-center">
+            <!-- Isi konten di sini -->
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-8">
+                    <h1 class="text-white font-weight-bold">Your Favorite Place for Free Bootstrap Themes</h1>
+                    <hr class="divider" />
+                    <p class="text-white-75 mb-5">Start Bootstrap can help you build better websites using the Bootstrap framework! Just download a theme and start customizing, no strings attached!</p>
+                    <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="container-fluid py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <!-- Gambar di sini -->
+                    <img src="assets/img/content.jpg" alt="AKJ Semarang" class="img-fluid">
+                </div>
+                <div class="col-lg-6">
+                    <!-- Deskripsi profil AKJ Semarang di sini -->
+                    <h2 class="display-4">Profil AKJ Semarang</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae felis vel libero vestibulum pretium nec a arcu. Mauris non lectus vel metus blandit congue.</p>
+                    <p>Nullam non velit eu risus feugiat consectetur. Curabitur condimentum, sem quis ultrices luctus, mauris ex tempus lorem, in efficitur odio ligula vitae justo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <!-- Gambar di sini -->
+                    <img src="assets/img/content.jpg" alt="AKJ Semarang" class="img-fluid">
+                </div>
+                <div class="col-lg-6">
+                    <!-- Deskripsi profil AKJ Semarang di sini -->
+                    <h2 class="display-4">Profil AKJ Semarang</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae felis vel libero vestibulum pretium nec a arcu. Mauris non lectus vel metus blandit congue.</p>
+                    <p>Nullam non velit eu risus feugiat consectetur. Curabitur condimentum, sem quis ultrices luctus, mauris ex tempus lorem, in efficitur odio ligula vitae justo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <h1>Content</h1>
+        <p>This is a Bootstrap page.</p>
+    </div>
+    <script>
+        $(document).ready(function () {        
+            const navbar = $("#navbar");           
+            $(window).scroll(function () {     
+                if ($(this).scrollTop() > 50) {                  
+                    navbar.addClass("custom-navbar-solid").removeClass("custom-navbar");
+                } else {                   
+                 navbar.addClass("custom-navbar").removeClass("custom-navbar-solid");
+                }
+            });
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>

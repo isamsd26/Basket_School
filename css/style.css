@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #ddd;
+  color: #333;
+}
+
+/* Navbar transparan */
+.custom-navbar {
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+/* Navbar solid */
+.custom-navbar-solid {
+  background-color: #1d1178;
+}
+
+.container {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo-container img {
+  height: 30px; /* Sesuaikan tinggi logo sesuai kebutuhan */
+  margin-right: 10px;
+}
+
+header.jb {
+  padding-top: 25rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(
+      to bottom,
+      rgba(140, 134, 215, 0.8) 0%,
+      rgba(92, 77, 66, 0.8) 100%
+    ),
+    url("../assets/img/bg-jb.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
+  margin-top: 50px;
+}
+
+.transparent-container {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0
+  ); /* Nilai alpha 0.5 membuatnya 50% transparan */
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  text-align: center;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}

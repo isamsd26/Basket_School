@@ -55,13 +55,13 @@ body {
 }
 
 .logo-container img {
-  height: 30px; 
+  height: 30px;
   margin-right: 10px;
 }
 
 header.jb {
-  padding-top: 15rem; 
-  padding-bottom: 15rem; 
+  padding-top: 15rem;
+  padding-bottom: 15rem;
   height: 40rem;
   background: linear-gradient(
       to bottom,
@@ -133,4 +133,26 @@ input[type="submit"]:hover {
 .img-flud {
   max-width: 100%;
   height: auto;
+}
+
+img.ceklis {
+  width: 24px;
+  height: 24px;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-container p {
+  width: 100%;
+  margin-bottom: 10px; /* Menambahkan jarak antar item */
+}
+
+.list-container p img {
+  margin-right: 10px; /* Atur jarak antara ikon dan teks */
+}
+.item {
+  width: 100%;
 }

@@ -28,13 +28,11 @@ body {
   color: #333;
 }
 
-/* Navbar transparan */
 .custom-navbar {
   background-color: transparent;
   transition: background-color 0.3s ease;
 }
 
-/* Navbar solid */
 .custom-navbar-solid {
   background-color: #432eb5;
 }
@@ -48,6 +46,7 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
+
 .logo-container {
   display: flex;
   align-items: center;
@@ -60,9 +59,9 @@ body {
 }
 
 header.jb {
-  padding-top: 15rem;
-  padding-bottom: 15rem;
-  height: 40rem;
+  padding-top: 30rem;
+  padding-bottom: 30rem;
+  height: 50rem;
   background: linear-gradient(
       to bottom,
       rgba(140, 134, 215, 0.8) 0%,
@@ -75,24 +74,10 @@ header.jb {
   background-size: cover;
 }
 
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
-  margin-top: 50px;
+.transparent-container {
+  background-color: rgba(0, 0, 0, 0);
 }
 
-.transparent-container {
-  background-color: rgba(
-    0,
-    0,
-    0,
-    0
-  ); /* Nilai alpha 0.5 membuatnya 50% transparan */
-}
 h1 {
   text-align: center;
   margin-bottom: 20px;
@@ -100,7 +85,6 @@ h1 {
 
 .custom-footer-bg {
   background-color: #432eb5;
-  /* Ganti your_custom_color dengan nilai warna RGB, HEX, atau nama warna CSS yang Anda inginkan */
 }
 
 form {
@@ -130,7 +114,7 @@ input[type="submit"]:hover {
   background-color: #0056b3;
 }
 
-.img-flud {
+.img-fluid {
   max-width: 100%;
   height: auto;
 }
@@ -145,14 +129,22 @@ img.ceklis {
   flex-direction: column;
 }
 
-.list-container p {
+.list-container .p {
   width: 100%;
-  margin-bottom: 10px; /* Menambahkan jarak antar item */
+  margin-bottom: 10px;
 }
 
-.list-container p img {
-  margin-right: 10px; /* Atur jarak antara ikon dan teks */
+.list-container .p img {
+  margin-right: 10px;
 }
+
 .item {
   width: 100%;
+}
+
+.custom-img {
+  max-width: 500px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
 }

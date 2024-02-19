@@ -224,7 +224,7 @@
         </div>
 
         <div class="container text-center bg-white py-3 my-1">
-            
+        <h1 class="mt-4">Galeri AKJ Basketball</h1>
             <div class="row row-cols-1 row-cols-lg-3 g-2 g-lg-3">
                 <div class="col mb-1">
                     <img src="assets/img/slider/b-1.jpg" alt="Image 1" class="custom-img">
@@ -246,7 +246,7 @@
                 </div>
                 <div class="col mt-4"></div>
                 <div class="col-12 mt-4 d-flex justify-content-center">
-                <button class="btn btn-primary">Galeri Lainnya</button>
+                    <button class="btn btn-primary">Galeri Lainnya</button>
                 </div>
                 <div class="col mt-4"></div>
             </div>

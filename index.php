@@ -96,7 +96,7 @@
                             <div class="col-6">
                                     <div class="row g-0">
                                         <div class="col">
-                                            <img src="assets/img/2.jpg" class="img-fluid rounded mt-3" style="width: auto; height: 150px;">
+                                            <img src="assets/img/2.jpg" class="img-fluid rounded mt-5" style="width: auto; height: 250px;">
                                         </div>
                                     </div>
                                 </div>
@@ -104,7 +104,7 @@
                             <div class="row g-0 text-center">
                                 <div class="col-1 ">
                                 </div>
-                                <div class="col-6 ">
+                                <div class="col-6 mb-4">
                                     <img src="assets/img/3.jpg"  class="img-fluid rounded" style="max-width: auto; height:auto;">
                                 </div>
                                 <div class="col-1"></div>
@@ -159,9 +159,34 @@
             </div>
         </div>  
 
-        <div>
-
+        <div id="carouselExampleIndicators" class=" container carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/slider/b-1.jpg" class="d-block " style="height: 300px; width: 300px; object-fit: cover;" alt="Slide 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/slider/b-2.jpg" class="d-block " style="height: 300px; width: 300px; object-fit: cover;" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/slider/b-3.jpg" class="d-block " style="height: 300px; width: 300px; object-fit: cover;" alt="Slide 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" style="background-color: black; color: white;" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
+
+
 
         <div class="card mx-auto mt-5 ps-4 bg-dark" style="width: 1200px; height: 120px;">
             <div class="card-body d-flex justify-content-between align-items-center text-white pe-4">
@@ -232,6 +257,7 @@
         </script>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-        
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybBud7TlRbs/ic4AwGcFZOxg5DpPt8EgeUIgIwzjWfXQKWA3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
     </body>
 </html>

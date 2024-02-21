@@ -26,7 +26,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>       
                 <div class="d-flex collapse navbar-collapse fs-5" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5 text-dark">
                         <li class="nav-item px-1">
                             <a class="nav-link" href="#profil">Profil</a>
                         </li>
@@ -43,8 +43,8 @@
                             <a class="nav-link" href="features/info.php">Informasi Pendaftaran</a>
                         </li>
                     </ul>
-                    <div class="d-flex align-items-center ">
-                        <button class="btn btn-outline-light me-2 fs-5" onclick="window.location.href = 'features/login.php';">Masuk</button>
+                    <div class="d-flex align-items-center">
+                        <button class="btn btn-outline-dark me-2 fs-5 text-dark" onclick="window.location.href = 'features/login.php';">Masuk</button>
                         <button class="btn btn-light me-3 fs-5" onclick="window.location.href = 'features/daftar.php';">Daftar</button>
                     </div>
                 </div>
@@ -55,7 +55,7 @@
             <div class="container-fluid py-5 transparent-container text-center">
                 <div class="row">
                     <div class="col-lg-6">
-                        <h1 class="text-white font-weight-bold">Let's join and play with us!</h1>
+                        <h1 class="text-dark font-weight-bold">Let's join and play with us!</h1>
                         <hr class="divider" />
                         <p class="text-white mb-5 font-weight-bold">
                             <button class="btn btn-light btn-lg me-3" onclick="window.location.href = 'features/daftar.php';">Gabung sekarang</button>
@@ -263,7 +263,7 @@
             </div>
         </div>
         <div class="container-fluid">
-        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 pb-3 pt-5 border-top custom-footer-bg text-white">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 pb-3 pt-5 border-top custom-footer-bg text-dark">
             <div class="col mb-3 d-flex flex-column align-items-center justify-content-center">
                 <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none ms-4">
                     <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
@@ -275,35 +275,35 @@
             </div>
             <div class="col"></div>
             <div class="col mb-3">
-                <h5 class="text-white">Section 1</h5>
+                <h5 class="text-dark">Section 1</h5>
                 <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Features</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">About</a></li>
                 </ul>
             </div>
 
             <div class="col mb-3">
-                <h5 class="text-white">Section 2</h5>
+                <h5 class="text-dark">Section 2</h5>
                 <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Features</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">About</a></li>
                 </ul>
             </div>
 
             <div class="col mb-3">
-                <h5 class="text-white">Section 3</h5>
+                <h5 class="text-dark">Section 3</h5>
                 <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Features</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">About</a></li>
                 </ul>
             </div>
         </footer>

@@ -44,8 +44,8 @@
                         </li>
                     </ul>
                     <div class="d-flex align-items-center">
-                        <button class="btn btn-outline-light me-2 fs-5 text-white" onclick="window.location.href = 'features/login.php';">Masuk</button>
-                        <button class="btn btn-light me-3 fs-5" onclick="window.location.href = 'features/daftar.php';">Daftar</button>
+                        <button class="btn btn-outline-light me-2 fs-5 text-white" onclick="window.location.href = 'features/login/login.php';">Masuk</button>
+                        <button class="btn btn-light me-3 fs-5" onclick="window.location.href = 'features/daftar/daftar.php';">Daftar</button>
                     </div>
                 </div>
             </div>
@@ -59,7 +59,7 @@
                             <h1 class="text-white font-weight-bold">Let's join and play with us!</h1>
                             <hr class="divider" />
                             <p class="text-white mb-5 font-weight-bold">
-                                <button class="btn btn-dark  btn-lg me-3" onclick="window.location.href = 'features/daftar.php';">Gabung sekarang</button>
+                                <button class="btn btn-dark  btn-lg me-3" onclick="window.location.href = 'features/daftar/daftar.php';">Gabung sekarang</button>
                             </p>
                         </div>
                         <div class="col-lg-6">
@@ -310,7 +310,11 @@
         </div>
         <script>
             $(document).ready(function () {        
-                const navbar = $("#navbar");           
+                const navbar = $("#navbar");
+                navbar.on('click', '.nav-item', function() {
+                    // Tutup dropdown setelah item dropdown diklik
+                    $(".navbar-collapse").collapse('hide');
+                });           
                 $(window).scroll(function () {     
                     if ($(this).scrollTop() > 50) {                  
                         navbar.addClass("custom-navbar-solid").removeClass("custom-navbar");

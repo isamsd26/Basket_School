@@ -26,7 +26,7 @@ body {
 }
 
 .navbar li a:hover {
-  background-color: #ddd;
+  background-color: #a8a8a8;
   color: #333;
 }
 
@@ -39,10 +39,10 @@ body {
   background-color: #3d29d2;
 }
 
-custom-bg-container{
+.custom-bg-container {
   background-image: url(../assets/img/bg-body.jpg);
   background-repeat: repeat;
-  background-size: 300px;  
+  background-size: 300px;
 }
 .container {
   --bs-gutter-x: 1.5rem;
@@ -66,8 +66,8 @@ custom-bg-container{
 }
 
 header.jb {
-  padding-top: 30rem;
-  padding-bottom: 30rem;
+  padding-top: 20rem;
+  padding-bottom: 20rem;
   height: 50rem;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(92, 45, 220, 0.3)),
     url(../assets/img/bg-jb.jpg);
@@ -150,4 +150,31 @@ img.ceklis {
   max-height: 300px;
   width: auto;
   height: auto;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .logo-container {
+    justify-content: center;
+  }
+
+  .navbar-collapse {
+    justify-content: center;
+  }
+
+  .navbar-toggler {
+    margin-right: 0;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+  }
+
+  .navbar-nav .nav-item {
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
 }

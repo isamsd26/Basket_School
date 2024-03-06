@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Bootstrap Page</title>  
+        <title>AKJ Basketball Scholl</title>  
         <link rel="icon" type="image/x-icon" href="assets/img/Logo_AKJ_Basketball.png" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet" />
@@ -16,7 +16,7 @@
             $navbarClass .= ' custom-navbar-solid';
         }
         ?>
-        <nav class="<?php echo $navbarClass; ?>" id="navbar">
+        <nav class="<?php echo $navbarClass; ?> flex-wrap-start" id="navbar">
             <div class="container-fluid">
                 <a class="navbar-brand ps-5 fs-4" href="#">
                     <img src="assets/img/Logo_AKJ_Basketball.png" alt="Logo AKJ Semarang" height="60" class="d-inline-block align-top me-2">
@@ -28,7 +28,7 @@
                 <div class="d-flex collapse navbar-collapse fs-5" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5 ">
                         <li class="nav-item px-1">
-                            <a class="nav-link text-white" href="#profil">Profil</a>
+                            <a class="nav-link text-white" href="#">Beranda</a>
                         </li>
                         <li class="nav-item px-1">
                             <a class="nav-link text-white" href="features/news.php">Berita</a>
@@ -51,8 +51,8 @@
             </div>
         </nav>
         
-        <header class="jb d-flex justify-content-center align-items-center py-10" style="padding-top: 30rem; padding-bottom: 30rem;">
-        <div class="container-fluid py-5">
+        <header class="jb d-flex justify-content-center align-items-center py-10" style="padding-top: 30rem; padding-bottom: 25rem;">
+            <div class="container-fluid py-5">
                 <div class="transparent-container text-center" >
                     <div class="row">
                         <div class="col-lg-6">
@@ -82,232 +82,13 @@
                 </div>
             </div>
         </section>
-        <div class="container-fluid d-flex flex-column justify-content-center align-items-center custom-bg-container">
-            <div class="container bg-white">
-                <div class="container justify-content-center align-items-center mt-5">
-                    <h2 class="fs-1 text-center">Kenapa harus memilih kami?</h2>
-                    <p class="text-center fs-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur, perferendis, ipsum quas voluptates ex doloremque tenetur sit delectus consectetur debitis nisi sint itaque in temporibus incidunt! Cupiditate, labore error.</p>
-                </div>
-                <div class="container d-flex justify-content-between align-items-center mt-1">
-                    <div class="container">
-                        <!-- Konten untuk container pertama -->
-                        <div>
-                            <div class="row g-0 text-center mb-3">
-                                <div class="col-6">
-                                    <img src="assets/img/1.jpg" class="img-fluid rounded" style="width: auto; height: auto;">
-                                </div>
-                                <div class="col-6">
-                                        <div class="row g-0">
-                                            <div class="col">
-                                                <img src="assets/img/2.jpg" class="img-fluid rounded mt-5" style="width: auto; height: 250px;">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row g-0 text-center">
-                                    <div class="col-1 ">
-                                    </div>
-                                    <div class="col-6 mb-4">
-                                        <img src="assets/img/3.jpg"  class="img-fluid rounded" style="max-width: auto; height:auto;">
-                                    </div>
-                                    <div class="col-1"></div>
-                                </div>
-                            </div>
-                    </div>
-                    <div class="container">
-                        <!-- Konten untuk container kedua -->
-                        <div class="list-container grid gap-3 fs-5">
-                            <div class="row my-3">
-                                <div class="col-1">
-                                    <img src="assets/ceklis.svg" alt="ceklist icon" style="width: 20px;" class="item">
-                                </div>
-                                <div class="col">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                </div>
-                            </div>
-                            <div class="row my-3">
-                                <div class="col-1">
-                                    <img src="assets/ceklis.svg" alt="ceklist icon" style="width: 20px;" class="item">
-                                </div>
-                                <div class="col ">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                </div>
-                            </div>
-                            <div class="row my-3">
-                                <div class="col-1">
-                                    <img src="assets/ceklis.svg" alt="ceklist icon" style="width: 20px;" class="item">
-                                </div>
-                                <div class="col ">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                </div>
-                            </div>
-                            <div class="row my-3">
-                                <div class="col-1">
-                                    <img src="assets/ceklis.svg" alt="ceklist icon" style="width: 20px;" class="item">
-                                </div>
-                                <div class="col">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                </div>
-                            </div>
-                            <div class="row my-3">
-                                <div class="col-1">
-                                    <img src="assets/ceklis.svg" alt="ceklist icon" style="width: 20px;" class="item">
-                                </div>
-                                <div class="col">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>           
-        </div>  
-
-        <div id="carouselExampleIndicators" class="container carousel slide my-5 py-3 bg-white" data-bs-ride="carousel">
-        <h1 class="mt-4">Berita Terbaru</h1>
-            
-            <div class="carousel-inner mt-5">
-                <div class="carousel-item active ">
-                    <div class="d-flex justify-content-center">
-                        <div class="text-center">
-                            <img src="assets/img/slider/b-1.jpg" class="d-block mx-4" style="height: 300px; width: 300px; object-fit: cover;" alt="Slide 1">
-                            <h5 class="mt-3">Header Slide 1</h5>
-                            <p class="mt-3">Description for Slide 1</p>
-                            <button class="btn btn-outline-dark" style=" background-color: #b7821d;">Learn More</button>
-                        </div>
-                        <div class="text-center">
-                            <img src="assets/img/slider/b-2.jpg" class="d-block mx-4" style="height: 300px; width: 300px; object-fit: cover;" alt="Slide 2">
-                            <h5 class="mt-3">Header Slide 1</h5>
-                            <p class="mt-3">Description for Slide 1</p>
-                            <button class="btn btn-outline-dark" style=" background-color: #b7821d;">Learn More</button>
-                        </div>
-                        <div class="text-center">
-                            <img src="assets/img/slider/b-3.jpg" class="d-block mx-4" style="height: 300px; width: 300px; object-fit: cover;" alt="Slide 3">
-                            <h5 class="mt-3">Header Slide 1</h5>
-                            <p class="mt-3">Description for Slide 1</p>
-                            <button class="btn btn-outline-dark" style=" background-color: #b7821d;">Learn More</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item ">
-                    <div class="d-flex justify-content-center">
-                        <div class="text-center">
-                            <img src="assets/img/slider/b-4.jpg" class="d-block mx-4" style="height: 300px; width: 300px; object-fit: cover;" alt="Slide 3">
-                            <h5 class="mt-3">Header Slide 1</h5>
-                            <p class="mt-3">Description for Slide 1</p>
-                            <button class="btn btn-outline-dark" style=" background-color: #b7821d;">Learn More</button>
-                        </div>
-                        <div class="text-center">
-                            <img src="assets/img/slider/b-5.jpg" class="d-block mx-4" style="height: 300px; width: 300px; object-fit: cover;" alt="Slide 3">
-                            <h5 class="mt-3">Header Slide 1</h5>
-                            <p class="mt-3">Description for Slide 1</p>
-                            <button class="btn btn-outline-dark" style=" background-color: #b7821d;">Learn More</button>
-                        </div>
-                        <div class="text-center">
-                            <img src="assets/img/slider/b-6.jpg" class="d-block mx-4" style="height: 300px; width: 300px; object-fit: cover;" alt="Slide 3">
-                            <h5 class="mt-3">Header Slide 1</h5>
-                            <p class="mt-3">Description for Slide 1</p>
-                            <button class="btn btn-outline-dark" style=" background-color: #b7821d;">Learn More</button>
-                        </div>                                              
-                    </div>
-                </div>
-                <!-- Add other carousel items here -->
-            </div>
-            <button class="carousel-control-prev" style=" filter: invert(100%); left: 0;" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" style=" filter: invert(100%); right: 0;" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden text-dark">Next</span>
-            </button>
-        </div>
-
-        <div class="container text-center bg-white py-3 my-1">
-        <h1 class="mt-4">Galeri AKJ Basketball</h1>
-            <div class="row row-cols-1 row-cols-lg-3 g-2 g-lg-3">
-                <div class="col mb-1">
-                    <img src="assets/img/slider/b-1.jpg" alt="Image 1" class="custom-img">
-                </div>
-                <div class="col mb-1">
-                    <img src="assets/img/slider/b-2.jpg" alt="Image 2" class="custom-img">
-                </div>
-                <div class="col mb-1">
-                    <img src="assets/img/slider/b-3.jpg" alt="Image 3" class="custom-img">
-                </div>
-                <div class="col mb-1">
-                    <img src="assets/img/slider/b-4.jpg" alt="Image 4" class="custom-img">
-                </div>
-                <div class="col mb-1">
-                    <img src="assets/img/slider/b-5.jpg" alt="Image 5" class="custom-img">
-                </div>
-                <div class="col mb-1">
-                    <img src="assets/img/slider/b-6.jpg" alt="Image 6" class="custom-img">
-                </div>
-                <div class="col mt-4"></div>
-                <div class="col-12 mt-4 d-flex justify-content-center">
-                    <button class="btn btn-primary text-dark" style="background-color: #b7821d;">Galeri Lainnya</button>
-                </div>
-                <div class="col mt-4"></div>
-            </div>
-        </div>
-
-
-        <div class="card mx-auto mt-5 ps-4" style="width: 1200px; height: 120px; background-color: #936312;">
-            <div class="card-body d-flex justify-content-between align-items-center text-white pe-4">
-                <div>
-                    <h5 class="card-title">Need more information?</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus efficitur arcu eget convallis efficitur.</p>
-                </div>
-                <button type="button" class="btn btn-dark btn-md" onclick="window.location.href = 'features/info.php';">Informari pendaftaran</button>
-            </div>
-        </div>
-        <div class="container-fluid">
-        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 pb-3 pt-5 border-top custom-footer-bg text-white">
-            <div class="col mb-3 d-flex flex-column align-items-center justify-content-center">
-                <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none ms-4">
-                    <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
-                    <img src="assets/img/Logo_AKJ_Basketball.png" alt="Logo AKJ Semarang" height="50" class="d-inline-block align-top me-2">
-                </a>
-                <p class="mb-0 ms-5">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quo, pariatur dolorem deserunt non cupiditate doloremque architecto obcaecati ab corrupti officiis, recusandae omnis impedit. Reiciendis quod repellat officia doloribus deserunt!
-                </p>
-            </div>
-            <div class="col"></div>
-            <div class="col mb-3">
-                <h5 class="text-white">Section 1</h5>
-                <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Features</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
-                </ul>
-            </div>
-
-            <div class="col mb-3">
-                <h5 class="text-white">Section 2</h5>
-                <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Features</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
-                </ul>
-            </div>
-
-            <div class="col mb-3">
-                <h5 class="text-white">Section 3</h5>
-                <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Features</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
-                </ul>
-            </div>
-        </footer>
-        </div>
+        <?php include 'features/dom/alasan.php'; ?>
+        <?php include 'features/dom/carousel.php'; ?>
+        <?php include 'features/dom/galeri.php'; ?>
+        <?php include 'features/dom/footer.php'; ?>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
         <script>
             $(document).ready(function () {        
                 const navbar = $("#navbar");
@@ -324,7 +105,6 @@
                 });
             });
         </script>
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script>
             $(document).ready(function () {
                 $('#carouselExampleIndicators').on('slide.bs.carousel', function (e) {
@@ -347,8 +127,18 @@
                 });
             });
         </script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-        
-       
+        <script>
+            $(document).ready(function () {
+                $('.navbar-toggler').on('click', function () {
+                    $('#navbarSupportedContent').toggleClass('show');
+                });
+
+                $('.navbar-nav .nav-link').on('click', function() {
+                    $('#navbarSupportedContent').removeClass('show');
+                });
+            });
+        </script>
+
+      
     </body>
 </html>

@@ -7,6 +7,10 @@ body {
   background-size: 300px;
 }
 
+.navbar-placeholder {
+  height: 70px;
+}
+
 .navbar ul {
   list-style-type: none;
   margin: 0;
@@ -54,6 +58,11 @@ body {
   margin-left: auto;
 }
 
+.custom-jadwal {
+  width: 1500px;
+  margin: 0 auto;
+}
+
 .logo-container {
   display: flex;
   align-items: center;
@@ -67,7 +76,7 @@ body {
 
 header.jb {
   padding-top: 20rem;
-  padding-bottom: 20rem;
+  padding-bottom: 10rem;
   height: 50rem;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(92, 45, 220, 0.3)),
     url(../assets/img/bg-jb.jpg);
@@ -150,6 +159,30 @@ img.ceklis {
   max-height: 300px;
   width: auto;
   height: auto;
+}
+
+.sidebar {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 20px;
+}
+.sidebar h3 {
+  margin-top: 0;
+}
+.sidebar img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.news-content {
+  width: 900px;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+.news-content img {
+  width: 900px;
+  height: 500px;
+  margin-bottom: 10px;
 }
 
 /* Responsive styles */

@@ -7,8 +7,9 @@
         </div>
         <button type="button" class="btn btn-dark btn-md" onclick="window.location.href = 'features/info.php';">Informari pendaftaran</button>
     </div>
-</div><div class="container-fluid" id="footer">
-    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 pb-3 pt-5 border-top custom-footer-bg text-white">
+</div>
+<div class="container-fluid" id="footer">
+    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 pb-3 pt-5 border-top text-white">
         <div class="col mb-3 d-flex flex-column align-items-center justify-content-center">
             <a class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none ms-4">
                 <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>

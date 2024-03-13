@@ -35,8 +35,8 @@
                         <li class="nav-item"><a class="nav-link" href="info.php">Informasi Pendaftaran</a></li>
                     </ul>
                     <div class="d-flex align-items-center">
-                        <button class="btn btn-outline-dark me-2 fs-5 text-white" onclick="window.location.href = 'features/login/login.php';">Masuk</button>
-                        <button class="btn btn-light me-3 fs-5" onclick="window.location.href = 'features/daftar/daftar.php';">Daftar</button>
+                        <button class="btn btn-outline-dark me-2 fs-5 text-white" onclick="window.location.href = 'login.php';">Masuk</button>
+                        <button class="btn btn-light me-3 fs-5" onclick="window.location.href = 'register.php';">Daftar</button>
                     </div>
                 </div>
             </div>
@@ -56,9 +56,9 @@
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <!-- Portfolio item 1-->
                         <div class="portfolio-item">
-                            <a class="portfolio-link"  href="#portfolioModal1">
+                            <a class="portfolio-link"  href='news/b1.php'>
                                 <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i></i></div>
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
                                 <img class="img-fluid" src="../assets/img/1.jpg" alt="..." />
                             </a>
@@ -71,9 +71,9 @@
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <!-- Portfolio item 2-->
                         <div class="portfolio-item">
-                            <a class="portfolio-link"  href="#portfolioModal2">
+                            <a class="portfolio-link"  href='news/b2.php'>
                                 <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i></i></div>
+                                    <div class="portfolio-hover-content"></div>
                                 </div>
                                 <img class="img-fluid" src="../assets/img/2.jpg" alt="..." />
                             </a>
@@ -86,7 +86,7 @@
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <!-- Portfolio item 3-->
                         <div class="portfolio-item">
-                            <a class="portfolio-link"  href="#portfolioModal3">
+                            <a class="portfolio-link"  href='news/b3.php'>
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i></i></div>
                                 </div>
@@ -101,7 +101,7 @@
                     <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
                         <!-- Portfolio item 4-->
                         <div class="portfolio-item">
-                            <a class="portfolio-link"  href="#portfolioModal4">
+                            <a class="portfolio-link"  href='news/b4.php'>
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i></i></div>
                                 </div>
@@ -116,7 +116,7 @@
                     <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
                         <!-- Portfolio item 5-->
                         <div class="portfolio-item">
-                            <a class="portfolio-link"  href="#portfolioModal5">
+                            <a class="portfolio-link"  href='news/b5.php'>
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i></i></div>
                                 </div>
@@ -131,7 +131,7 @@
                     <div class="col-lg-4 col-sm-6">
                         <!-- Portfolio item 6-->
                         <div class="portfolio-item">
-                            <a class="portfolio-link"  href="#portfolioModal6">
+                            <a class="portfolio-link"  href='news/b6.php'>
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i></i></div>
                                 </div>

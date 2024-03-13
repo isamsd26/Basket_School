@@ -34,8 +34,8 @@
                         <li class="nav-item"><a class="nav-link" href="features/info.php">Informasi Pendaftaran</a></li>
                     </ul>
                     <div class="d-flex align-items-center">
-                        <button class="btn btn-outline-dark me-2 fs-5 text-white" onclick="window.location.href = 'features/login/login.php';">Masuk</button>
-                        <button class="btn btn-light me-3 fs-5" onclick="window.location.href = 'features/daftar/daftar.php';">Daftar</button>
+                        <button class="btn btn-outline-dark me-2 fs-5 text-white" onclick="window.location.href = 'features/login.php';">Masuk</button>
+                        <button class="btn btn-light me-3 fs-5" onclick="window.location.href = 'features/register.php';">Daftar</button>
                     </div>
                 </div>
             </div>

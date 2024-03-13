@@ -1,55 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Berita tentang AKJ</title>  
-        <link rel="icon" type="image/x-icon" href="../../assets/img/Logo_AKJ_Basketball.png" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link href="../../css/style.css" rel="stylesheet" />
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>AKJ Basketbal School</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="../assets/img/Logo_AKJ_Basketball.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="../../css/styles.css" rel="stylesheet"/>
     </head>
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-dark py-3 fixed-top custom-navbar" id="navbarNonSticky">
-            <div class="container-fluid">
-                <a class="navbar-brand ps-5 fs-4" href="../index.php">
-                    <img src="../../assets/img/Logo_AKJ_Basketball.png" alt="Logo AKJ Semarang" height="60" class="d-inline-block align-top me-2"> 
-                </a>           
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>       
-                <div class="d-flex collapse navbar-collapse fs-5" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5 ">
-                        <li class="nav-item px-1">
-                            <a class="nav-link text-dark" href="../../index.php">Beranda</a>
-                        </li>
-                        <li class="nav-item px-1">
-                            <a class="nav-link text-dark" href="../news.php">Berita</a>
-                        </li>
-                        <li class="nav-item px-1">
-                            <a class="nav-link text-dark" href="../jadwal.php">Jadwal</a>
-                        </li>
-                        <li class="nav-item px-1">
-                            <a class="nav-link text-dark" href="../galeri.php">Galeri</a>
-                        </li>
-                        <li class="nav-item px-1">
-                            <a class="nav-link text-dark" href="../info.php">Informasi Pendaftaran</a>
-                        </li>
+    <body id="page-top">
+        <nav class="navbar navbar-expand-lg fixed-top" id="mainNav" style="background-color: #3d29d2;">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top"><img src="../../assets/img/Logo_AKJ_Basketball.png" height="60" alt="..."  /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link"  href="../../index.php">Beranda</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../news.php">Berita</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../jadwal.php">Jadwal</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../galeri.php">Galeri</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../info.php">Informasi Pendaftaran</a></li>
                     </ul>
                     <div class="d-flex align-items-center">
-                        <button class="btn btn-light me-2 fs-5 text-dark" onclick="window.location.href = '../features/login/login.php';">Masuk</button>
-                        <button class="btn btn-light me-3 fs-5" onclick="window.location.href = '../features/daftar/daftar.php';">Daftar</button>
+                        <button class="btn btn-outline-dark me-2 fs-5 text-white" onclick="window.location.href = 'login.php';">Masuk</button>
+                        <button class="btn btn-light me-3 fs-5" onclick="window.location.href = 'register.php';">Daftar</button>
                     </div>
                 </div>
             </div>
         </nav>
         <div class="navbar-placeholder"></div>
         <main class="my-5">
-            <h1>Berita Terbaru</h1>
+            <h1 class="text-center">Berita Terbaru</h1>
             <div class="row" style="margin-left : 100px;">
                 <div class="col-lg-8">
                     <div class="news-content">
-                        <img class="news-img mb-5" src="../../assets/img/2.jpg" alt="Judul Berita">
+                        <img class="news-img mb-5" src="../../assets/img/1.jpg" alt="Judul Berita">
                         <p class="fs-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quisquam, non, eveniet quia d
                             olorum minima saepe cupiditate suscipit ad adipisci, accusamus assumenda inventore et iste esse quasi rem corrupti 
                             expedita.</p>
@@ -76,7 +72,7 @@
 
         </main>
 
-        <div class="card mx-auto mt-5 ps-4" style="width: 1200px; height: 120px; background-color: #936312;">
+        <div class="card mx-auto mt-5 ps-4" style="width: auto; height: 120px; background-color: #936312;">
             <div class="card-body d-flex justify-content-between align-items-center text-white pe-4">
                 <div>
                     <h5 class="card-title">Need more information?</h5>
@@ -84,15 +80,17 @@
                 </div>
                 <button type="button" class="btn btn-dark btn-md" onclick="window.location.href = 'features/info.php';">Informari pendaftaran</button>
             </div>
-        </div><div class="container-fluid" id="footer">
-            <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 pb-3 pt-5 border-top custom-footer-bg text-white">
+        </div>
+        <footer class="footer">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 pb-3 pt-5 border-top custom-footer-bg text-white">
                 <div class="col mb-3 d-flex flex-column align-items-center justify-content-center">
                     <a class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none ms-4">
                         <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
-                        <img src="../../assets/img/Logo_AKJ_Basketball.png" alt="Logo AKJ Semarang" height="50" class="d-inline-block align-top me-2">
+                        <img src="../assets/img/Logo_AKJ_Basketball.png" alt="Logo AKJ Semarang" height="50" class="d-inline-block align-top me-2">
                     </a>
                     <p class="mb-0 ms-5">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quo, pariatur dolorem deserunt non cupiditate doloremque architecto obcaecati ab corrupti officiis, recusandae omnis impedit. Reiciendis quod repellat officia doloribus deserunt!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quo, pariatur dolorem 
+                         recusandae omnis impedit. Reiciendis quod repellat officia doloribus deserunt!
                     </p>
                 </div>
                 <div class="col"></div>
@@ -128,46 +126,15 @@
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
                     </ul>
                 </div>
-            </footer>
-        </div>
-        <script>
-            $(document).ready(function () {        
-                const navbar = $("#navbarNonSticky");
-                const navbarLinks = navbar.find('.nav-link');
-
-                navbar.on('click', '.nav-item', function() {
-                    // Tutup dropdown setelah item dropdown diklik
-                    $(".navbar-collapse").collapse('hide');
-                });           
-
-                $(window).scroll(function () {     
-                    if ($(this).scrollTop() > 50) {                  
-                        navbar.addClass("custom-navbar-solid").removeClass("custom-navbar");
-                        navbarLinks.removeClass("text-dark").addClass("text-white");
-                    } else {                   
-                        navbar.addClass("custom-navbar").removeClass("custom-navbar-solid");
-                        navbarLinks.removeClass("text-white").addClass("text-dark");
-                    }
-                });
-            });
-        </script>
-
-        <script>
-            $(document).ready(function () {        
-                const navbarSticky = $("#navbarSticky");
-                const navbarNonSticky = $("#navbarNonSticky");
-
-                $(window).scroll(function () {     
-                    if ($(this).scrollTop() > 50) {                  
-                        navbarSticky.addClass("custom-navbar-solid").removeClass("custom-navbar");
-                        navbarNonSticky.addClass("custom-navbar-solid").removeClass("custom-navbar");
-                    } else {                   
-                        navbarSticky.addClass("custom-navbar").removeClass("custom-navbar-solid");
-                        navbarNonSticky.addClass("custom-navbar").removeClass("custom-navbar-solid");
-                    }
-                });
-            });
-        </script>
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="../../js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>

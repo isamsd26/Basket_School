@@ -1,4 +1,4 @@
-<div class="container d-flex flex-column justify-content-center align-items-center custom-bg-container" id="alasan">
+<div class="container d-flex flex-column justify-content-center align-items-center " id="alasan">
     <div class="container bg-white">
         <div class="container justify-content-center align-items-center mt-5">
             <h2 class="fs-1 text-center">Kenapa harus memilih kami?</h2>

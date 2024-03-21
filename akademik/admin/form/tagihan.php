@@ -81,7 +81,7 @@
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid px-4">
-                        <h1 class="mt-4">Daftar Atlit</h1>
+                        <h1 class="mt-4">Form Tagihan Siswa</h1>
                                             
                         <div class="container-fluid">
                             <ol class="breadcrumb mt-5">
@@ -95,10 +95,37 @@
                         </div>
                         <div class="card mb-4">
                             <div class="card-header">
-                                <i class="fas fa-table me-1"></i>
-                                Daftar Pemain Terdaftar
+                                <h4><i class="fa-solid fa-money-check-dollar "></i>
+                                Form Tagihan
+                                <button type="submit" name="simpan" class="btn btn-primary btn-sm float-end ">
+                                    <i class="fa-regular fa-floppy-disk"></i>
+                                    simpan
+                                </button>
+                                <button type="submit" name="simpan" class="btn btn-danger btn-sm float-end me-2">
+                                    <i class="fa-solid fa-trash"></i>
+                                    delete
+                                </button>
+                                </h4>
                             </div>
-                            
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-lg-8 mb-3">
+                                        <div class="form-group">
+                                            <label for="id_laporan" class="fw-bolder">ID Laporan</label>
+                                            <input type="text" name="id_laporan" id="id_laporan" class="form-control" placeholder="Masukkan ID laporan">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="id_siswa" class="fw-bolder">ID Siswa</label>
+                                            <input type="text" name="id_siswa" id="id_siswa" class="form-control" placeholder="Masukkan ID Siswa">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="bulan" class="fw-bolder">Bulan</label>
+                                            <input type="text" name="bulan" id="bulan" class="form-control" placeholder="Masukkan ID Siswa">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 mb-3"></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </main>

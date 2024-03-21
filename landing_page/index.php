@@ -53,7 +53,7 @@
                 <h2 class="ps-5 text-center fs-1 mb-3">Sambutan AKJ Semarang</h2>
                 <div class="row">
                     <div class="col-lg-4">
-                        <img src="assets/img/content.jpg" alt="AKJ Semarang" class="img-fluid" style="max-width: 400px; height: 500px;">
+                        <img src="assets/img/content.jpg" alt="AKJ Semarang" class="img-fluid" >
                     </div>
                     <div class="col-lg-6 fs-5 bg-white">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae felis vel libero vestibulum pretium nec a arcu. Mauris non lectus vel metus blandit congue.</p>

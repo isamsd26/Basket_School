@@ -62,7 +62,7 @@
                                 </a>
                                 <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                     <nav class="sb-sidenav-menu-nested nav">
-                                        <a class="nav-link" href="form/tagihan.php"> Tagihan Iuran</a>
+                                        <a class="nav-link" href="#"> Tagihan Iuran</a>
                                         <a class="nav-link" href="#">Slip gaji pelatih</a>
                                         <a class="nav-link" href="#">Pengumuman pertandingan</a>
                                         <a class="nav-link" href="#">Berita</a>

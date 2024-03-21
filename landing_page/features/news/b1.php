@@ -42,10 +42,10 @@
         <div class="navbar-placeholder"></div>
         <main class="my-5">
             <h1 class="text-center">Berita Terbaru</h1>
-            <div class="row" style="margin-left : 100px;">
+            <div class="row" style="margin-left : 100px;  margin-right: 100px">
                 <div class="col-lg-8">
                     <div class="news-content">
-                        <img class="news-img mb-5" src="../../assets/img/1.jpg" alt="Judul Berita">
+                        <img class="img-fluid mb-5" src="../../assets/img/1.jpg" alt="Judul Berita">
                         <p class="fs-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quisquam, non, eveniet quia d
                             olorum minima saepe cupiditate suscipit ad adipisci, accusamus assumenda inventore et iste esse quasi rem corrupti 
                             expedita.</p>

@@ -41,14 +41,14 @@
         </nav>
         <div class="navbar-placeholder"></div>
         <main class="my-5">
-            <div class="custom-jadwal mt-5">
+            <div class="custom-jadwal mt-5 ">
                 <h1 class="text-center mb-5">Jadwal Pertandingan Basket</h1>
-                <div class="row">
+                <div class="row mx-3">
                     <div class="mb-4">
                         <div class="card">
                             <div class="card-body d-flex justify-content-between align-items-center">
                                 <div>
-                                    <img src="../assets/img/Logo_AKJ_Basketball.png" alt="Logo Klub A" style="max-width: 100px;">
+                                    <img src="../assets/img/Logo_AKJ_Basketball.png" alt="Logo Klub A" class="img-fluid">
                                     <p>Info Klub A</p>
                                 </div>
                                 <div>
@@ -58,7 +58,7 @@
                                 </div>
                                 <div>
                                     <p>Info Klub B</p>
-                                    <img src="path-to-logo-klub-b.png" alt="Logo Klub B" style="max-width: 100px;">
+                                    <img src="path-to-logo-klub-b.png" alt="Logo Klub B" class="img-fluid">
                                 </div>
                             </div>
                         </div>
@@ -67,7 +67,7 @@
                         <div class="card">
                             <div class="card-body d-flex justify-content-between align-items-center">
                                 <div>
-                                    <img src="../assets/img/Logo_AKJ_Basketball.png" alt="Logo Klub A" style="max-width: 100px;">
+                                    <img src="../assets/img/Logo_AKJ_Basketball.png" alt="Logo Klub A" class="img-fluid">
                                     <p>Info Klub A</p>
                                 </div>
                                 <div>
@@ -77,7 +77,7 @@
                                 </div>
                                 <div>
                                     <p>Info Klub B</p>
-                                    <img src="path-to-logo-klub-b.png" alt="Logo Klub B" style="max-width: 100px;">
+                                    <img src="path-to-logo-klub-b.png" alt="Logo Klub B" class="img-fluid">
                                 </div>
                             </div>
                         </div>
@@ -86,7 +86,7 @@
                         <div class="card">
                             <div class="card-body d-flex justify-content-between align-items-center">
                                 <div>
-                                    <img src="../assets/img/Logo_AKJ_Basketball.png" alt="Logo Klub A" style="max-width: 100px;">
+                                    <img src="../assets/img/Logo_AKJ_Basketball.png" alt="Logo Klub A" class="img-fluid">
                                     <p>Info Klub A</p>
                                 </div>
                                 <div>
@@ -96,7 +96,7 @@
                                 </div>
                                 <div>
                                     <p>Info Klub B</p>
-                                    <img src="path-to-logo-klub-b.png" alt="Logo Klub B" style="max-width: 100px;">
+                                    <img src="path-to-logo-klub-b.png" alt="Logo Klub B" class="img-fluid">
                                 </div>
                             </div>
                         </div>
@@ -105,7 +105,7 @@
                         <div class="card">
                             <div class="card-body d-flex justify-content-between align-items-center">
                                 <div>
-                                    <img src="../assets/img/Logo_AKJ_Basketball.png" alt="Logo Klub A" style="max-width: 100px;">
+                                    <img src="../assets/img/Logo_AKJ_Basketball.png" alt="Logo Klub A" class="img-fluid">
                                     <p>Info Klub A</p>
                                 </div>
                                 <div>
@@ -115,7 +115,7 @@
                                 </div>
                                 <div>
                                     <p>Info Klub B</p>
-                                    <img src="path-to-logo-klub-b.png" alt="Logo Klub B" style="max-width: 100px;">
+                                    <img src="path-to-logo-klub-b.png" alt="Logo Klub B" class="img-fluid">
                                 </div>
                             </div>
                         </div>
@@ -124,7 +124,7 @@
                         <div class="card">
                             <div class="card-body d-flex justify-content-between align-items-center">
                                 <div>
-                                    <img src="../assets/img/Logo_AKJ_Basketball.png" alt="Logo Klub A" style="max-width: 100px;">
+                                    <img src="../assets/img/Logo_AKJ_Basketball.png" alt="Logo Klub A" class="img-fluid">
                                     <p>Info Klub A</p>
                                 </div>
                                 <div>
@@ -134,7 +134,7 @@
                                 </div>
                                 <div>
                                     <p>Info Klub B</p>
-                                    <img src="path-to-logo-klub-b.png" alt="Logo Klub B" style="max-width: 100px;">
+                                    <img src="path-to-logo-klub-b.png" alt="Logo Klub B" class="img-fluid">
                                 </div>
                             </div>
                         </div>

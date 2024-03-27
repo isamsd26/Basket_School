@@ -20,7 +20,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="#page-top"><img src="assets/img/Logo_AKJ_Basketball.png" height="60" alt="..."  /></a>
+                <a class="navbar-brand" href="#page-top"><img src="assets/img/Logo_AKJ_Basketball.png" alt="..."  /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ms-1"></i>
@@ -63,7 +63,77 @@
             </div>
         </section>
         <?php include 'features/dom/alasan.php'; ?>
-        <?php include 'features/dom/carousel.php'; ?>
+        <div id="carouselExampleIndicators" class="container carousel slide my-5 py-3 bg-white" data-bs-ride="carousel">
+            <h1 class="mt-4">Berita Terbaru</h1>  
+            <div class="carousel-inner mt-5">
+                <div class="carousel-item active">
+                    <div class="row justify-content-center">
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <img src="assets/img/slider/b-1.jpg" class="d-block mx-auto mb-3" style="height: 300px; width: 300px; object-fit: cover;" alt="Slide 1">
+                                <h5 class="mt-3">Header Slide 1</h5>
+                                <p class="mt-3">Description for Slide 1</p>
+                                <button class="btn btn-outline-dark" style="background-color: #b7821d;">Learn More</button>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <img src="assets/img/slider/b-2.jpg" class="d-block mx-auto mb-3" style="height: 300px; width: 300px; object-fit: cover;" alt="Slide 2">
+                                <h5 class="mt-3">Header Slide 2</h5>
+                                <p class="mt-3">Description for Slide 2</p>
+                                <button class="btn btn-outline-dark" style="background-color: #b7821d;">Learn More</button>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <img src="assets/img/slider/b-3.jpg" class="d-block mx-auto mb-3" style="height: 300px; width: 300px; object-fit: cover;" alt="Slide 3">
+                                <h5 class="mt-3">Header Slide 3</h5>
+                                <p class="mt-3">Description for Slide 3</p>
+                                <button class="btn btn-outline-dark" style="background-color: #b7821d;">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <img src="assets/img/slider/b-1.jpg" class="d-block mx-auto mb-3" style="height: 300px; width: 300px; object-fit: cover;" alt="Slide 1">
+                                <h5 class="mt-3">Header Slide 4</h5>
+                                <p class="mt-3">Description for Slide 4</p>
+                                <button class="btn btn-outline-dark" style="background-color: #b7821d;">Learn More</button>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <img src="assets/img/slider/b-2.jpg" class="d-block mx-auto mb-3" style="height: 300px; width: 300px; object-fit: cover;" alt="Slide 2">
+                                <h5 class="mt-3">Header Slide 5</h5>
+                                <p class="mt-3">Description for Slide 5</p>
+                                <button class="btn btn-outline-dark" style="background-color: #b7821d;">Learn More</button>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <img src="assets/img/slider/b-3.jpg" class="d-block mx-auto mb-3" style="height: 300px; width: 300px; object-fit: cover;" alt="Slide 3">
+                                <h5 class="mt-3">Header Slide 6</h5>
+                                <p class="mt-3">Description for Slide 6 </p>
+                                <button class="btn btn-outline-dark" style="background-color: #b7821d;">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        <!-- Add other carousel items here -->
+            </div>
+            <button class="carousel-control-prev" style=" filter: invert(100%); left: 0;" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" style=" filter: invert(100%); right: 0;" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden text-dark">Next</span>
+            </button>
+        </div>
+
         
         <section class="page-section bg-light" id="portfolio">
             <div class="container">
@@ -234,7 +304,7 @@
             </div>
         </section>
         <!-- Footer-->
-        <div class="card mx-auto mt-5 ps-4" style="width: auto; height: 120px; background-color: #936312;">
+        <div class="card mx-5 mt-5 ps-4" style="width: auto; height: 120px; background-color: #936312;">
             <div class="card-body d-flex justify-content-between align-items-center text-white pe-4">
                 <div>
                     <h5 class="card-title">Need more information?</h5>
@@ -290,7 +360,52 @@
                 </div>
             </div>
         </footer>
-        
+        <script>
+            $(document).ready(function() {
+                // Atur jumlah slide yang ditampilkan berdasarkan ukuran layar
+                function setCarouselItems() {
+                    var screenWidth = $(window).width();
+                    var visibleSlides;
+
+                    if (screenWidth < 750) {
+                        visibleSlides = 1; 
+                    } else if (screenWidth < 1000) {
+                        visibleSlides = 2; 
+                    } else {
+                        visibleSlides = 3; 
+                    }
+
+                    $('#carouselExampleIndicators').carousel({
+                        interval: false,
+                        wrap: false
+                    });
+
+                    $('#carouselExampleIndicators').on('slide.bs.carousel', function(e) {
+                        var $e = $(e.relatedTarget);
+                        var idx = $e.index();
+                        var itemsPerSlide = visibleSlides;
+                        var totalItems = $('.carousel-item').length;
+
+                        if (idx >= totalItems - (itemsPerSlide - 1)) {
+                            var it = itemsPerSlide - (totalItems - idx);
+                            for (var i = 0; i < it; i++) {
+                                // Tambahkan slide ke akhir jika sedang di slide terakhir
+                                if (e.direction == "left") {
+                                    $('.carousel-item').eq(i).appendTo('.carousel-inner');
+                                } else {
+                                    $('.carousel-item').eq(0).appendTo('.carousel-inner');
+                                }
+                            }
+                        }
+                    });
+                }
+
+                // Panggil fungsi setCarouselItems saat halaman dimuat dan saat ukuran layar berubah
+                setCarouselItems();
+                $(window).resize(setCarouselItems);
+            });
+        </script>
+
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->

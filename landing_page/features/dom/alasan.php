@@ -65,14 +65,7 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
                     </div>
-                    <div class="row my-3">
-                        <div class="col-1">
-                            <img src="assets/ceklis.svg" alt="ceklist icon" style="width: 20px;" class="item">
-                        </div>
-                        <div class="col">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
-                    </div>
+                   
                 </div>
             </div>
         </div>

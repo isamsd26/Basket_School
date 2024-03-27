@@ -127,7 +127,7 @@
                 </section>  
             </div>
         </main>
-        <div class="card mx-auto mt-5 ps-4" style="width: auto; height: 120px; background-color: #936312;">
+        <div class="card mx-5 mt-5 ps-4" style="width: auto; height: 120px; background-color: #936312;">
             <div class="card-body d-flex justify-content-between align-items-center text-white pe-4">
                 <div>
                     <h5 class="card-title">Need more information?</h5>
